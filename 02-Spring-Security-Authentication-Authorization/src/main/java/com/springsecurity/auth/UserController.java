@@ -11,6 +11,11 @@ public class UserController {
 		return "<h1>Welcome! to Spring Security Session.</h1>";
 	}
 	
+	@GetMapping("/user")
+	public String user() {
+		return "<h1>Welcome! to Spring Security Session.</h1>";
+	}
+	
 	@GetMapping("/settings")
 	public String settings() {
 		return "<h1>Settings</h1>";
